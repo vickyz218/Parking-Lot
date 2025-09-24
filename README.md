@@ -1,4 +1,4 @@
-# Parking Lot – Object-Oriented Design (Java)
+# Parking Lot – Object-Oriented Design
 
 ## Overview
 This project is an object-oriented parking lot system written in Java. It models rows of parking spots, applies vehicle-specific parking rules, and provides status queries. The solution uses a simple in-memory domain model with JUnit tests. A small Spring Boot entry point is included to make it easy to run, though the problem statement does not require an API layer.
