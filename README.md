@@ -82,4 +82,6 @@ mvn test
 ## Alternatives Considered
 - **Allocation strategies**: stuck with greedy row-major for predictability, though heuristics could reduce fragmentation.  
 - **Van modeling**: kept a simple list of spots per vehicle rather than a separate object.  
-- **Spot mutability**: kept `currentVehicle` mutable for simplicity; immutable modeling would improve traceability at the cost of complexity.  
+- **Spot mutability**: kept `currentVehicle` mutable for simplicity; immutable modeling would improve traceability at the cost of complexity.
+
+
